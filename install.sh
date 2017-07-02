@@ -1,4 +1,6 @@
 #!/bin/bash
 
 cd ~
-tmux source-file ~/.tmux/tmux.conf
+ln -s -f .tmux/tmux.conf .tmux.conf
+tmux source-file ~/.tmux.conf
+
